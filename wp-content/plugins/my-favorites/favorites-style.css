@@ -1,0 +1,4 @@
+.favorites.link a,
+.favorites.list a.trash {
+  color: red;
+}

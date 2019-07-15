@@ -1,0 +1,385 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:33:22
+* VERSION: 1.3.18
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.1                                 |7.2.8
+OS__________________: Darwin                                |Darwin
+CREATED_____________: 2019-07-14 16:11:44
+WP VERSION__________: 5.2.2
+DUP VERSION_________: 1.3.18
+DB__________________: 5.7.25
+DB TABLES___________: 13
+DB ROWS_____________: 677
+DB FILE SIZE________: 1.02MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.8 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/duplicator_rad_remi"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/duplicator_rad_remi/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "Rad_finished_9a733955a556dca28200_20190714161144_archive.zip"
+SIZE________________: 19.75MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Applications/MAMP/htdocs/duplicator_rad_remi/Rad_finished_9a733955a556dca28200_20190714161144_archive.zip' -d '/Applications/MAMP/htdocs/duplicator_rad_remi' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:33:24 - RUNTIME: 2.2541 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'remi'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/duplicator_rad_remi/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'remi'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'remi'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/duplicator_rad_remi/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'remi'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:40:02
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.23 -- Build Server: 5.7.25
+FILE SIZE:	dup-database__9a73395-14161144.sql (384.46KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/duplicator_rad_remi/dup-installer/dup-installer-data__9a73395-14161144.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.23] is less than the build version [5.7.25].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	695
+
+exo2_commentmeta: (0)
+exo2_comments: (1)
+exo2_duplicator_packages: (0)
+exo2_links: (0)
+exo2_options: (134)
+exo2_postmeta: (350)
+exo2_posts: (95)
+exo2_term_relationships: (25)
+exo2_term_taxonomy: (11)
+exo2_termmeta: (0)
+exo2_terms: (11)
+exo2_usermeta: (27)
+exo2_users: (1)
+Removed '24' cache/transient rows
+
+INSERT DATA RUNTIME: 0.2805 sec.
+STEP-2 COMPLETE @ 08:40:02 - RUNTIME: 0.2841 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:40:39
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Rad"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/"
+path_new______________: "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+siteurl_______________: "http://localhost:8888/duplicator_rad_remi"
+url_old_______________: "http://localhost:8888/formation_wp/wp_exo_2_v2"
+url_new_______________: "http://localhost:8888/duplicator_rad_remi"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "wp_recap2"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "exo2_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "exo2_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "exo2_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "exo2_options"____________________________________[ROWS:   134][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_postmeta"___________________________________[ROWS:   350][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_posts"______________________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_term_relationships"_________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_term_taxonomy"______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "exo2_terms"______________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_usermeta"___________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+
+EVALUATE TABLE: "exo2_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/Applications/MAMP/htdocs/formation_wp/wp_exo_2_v2/" => "/Applications/MAMP/htdocs/duplicator_rad_remi/"
+	SEARCH  2:"\/Applications\/MAMP\/htdocs\/formation_wp\/wp_exo_2_v2\/" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi\/"
+	SEARCH  3:"%2FApplications%2FMAMP%2Fhtdocs%2Fformation_wp%2Fwp_exo_2_v2%2F" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi%2F"
+	SEARCH  4:"\Applications\MAMP\htdocs\formation_wp\wp_exo_2_v2" => "/Applications/MAMP/htdocs/duplicator_rad_remi"
+	SEARCH  5:"\\Applications\\MAMP\\htdocs\\formation_wp\\wp_exo_2_v2" => "\/Applications\/MAMP\/htdocs\/duplicator_rad_remi"
+	SEARCH  6:"%5CApplications%5CMAMP%5Chtdocs%5Cformation_wp%5Cwp_exo_2_v2" => "%2FApplications%2FMAMP%2Fhtdocs%2Fduplicator_rad_remi"
+	SEARCH  7:"//localhost:8888/formation_wp/wp_exo_2_v2" =======> "//localhost:8888/duplicator_rad_remi"
+	SEARCH  8:"\/\/localhost:8888\/formation_wp\/wp_exo_2_v2" ===> "\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH  9:"%2F%2Flocalhost%3A8888%2Fformation_wp%2Fwp_exo_2_v2" => "%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+	SEARCH 10:"https://localhost:8888/duplicator_rad_remi" ======> "http://localhost:8888/duplicator_rad_remi"
+	SEARCH 11:"https:\/\/localhost:8888\/duplicator_rad_remi" ===> "http:\/\/localhost:8888\/duplicator_rad_remi"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi" => "http%3A%2F%2Flocalhost%3A8888%2Fduplicator_rad_remi"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:655 	|	 Cells:4439 
+UPDATED:	Tables:2 	|	 Rows:98 	|	 Cells:101 
+ERRORS:		0 
+RUNTIME:	0.060100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wp_recap2""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:40:39 - RUNTIME: 0.0899 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
